@@ -25,6 +25,9 @@ const Routes = function(props) {
 class App extends React.Component {
 	componentDidMount() {
 		window.dispatchEvent(new window.CustomEvent('hide-basic-spinner'));
+		setTimeout(function() {
+			window.toaster.toast('info', 'Welcome, please fill the form below');
+		}, 2000);
 	}
 	
 	render() {

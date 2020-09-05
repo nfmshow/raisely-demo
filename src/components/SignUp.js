@@ -30,7 +30,7 @@ class SignUp extends React.Component {
 					/>
 					<Button id="signup_button" icon="icon-user-plus" task={signUp} text="Register" />
 					<div className="source-code-link">
-						<p>Source code can be found at <a href="#">https://github.com/nfmshow/raisely-signup</a></p>
+						<p>Source code is available <a href="https://github.com/nfmshow/raisely-demo">here</a></p>
 					</div>
 				</div>
 			</div>

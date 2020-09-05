@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "9c71a23776b58935ebdf",
-  "time": 57338,
-  "builtAt": 1599320547834,
+  "hash": "8e2f57057a9ec9ce139b",
+  "time": 60037,
+  "builtAt": 1599326667368,
   "publicPath": "/dist",
   "outputPath": "/home/raisely/dist",
   "assetsByChunkName": {
@@ -42,7 +42,7 @@
     },
     {
       "name": "js/main.raisely.js",
-      "size": 135096,
+      "size": 135176,
       "chunks": [
         0
       ],
@@ -78,7 +78,7 @@
     },
     {
       "name": "js/main.raisely.js.gz",
-      "size": 38362,
+      "size": 38400,
       "chunks": [
       ],
       "chunkNames": [
@@ -125,7 +125,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 368116,
+      "size": 368239,
       "names": [
         "main"
       ],
@@ -133,7 +133,7 @@
         "css/main.raisely.css",
         "js/main.raisely.js"
       ],
-      "hash": "e3c0b00b0d92b5d632ba",
+      "hash": "4e88a73427c8b7429971",
       "siblings": [
       ],
       "parents": [
@@ -1188,6 +1188,15 @@
               "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
+              "loc": "1:0-35"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
+              "module": "./node_modules/react-redux/es/index.js + 22 modules",
+              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
               "loc": "1:0-79"
             },
             {
@@ -1197,25 +1206,16 @@
               "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-35"
-            },
-            {
-              "moduleId": 14,
-              "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
-              "module": "./node_modules/react-redux/es/index.js + 22 modules",
-              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-35"
-            },
-            {
-              "moduleId": 14,
-              "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
-              "module": "./node_modules/react-redux/es/index.js + 22 modules",
-              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-51"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
+              "module": "./node_modules/react-redux/es/index.js + 22 modules",
+              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-35"
             },
             {
               "moduleId": 14,
@@ -2117,6 +2117,15 @@
                   "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
                   "type": "harmony side effect evaluation",
                   "userRequest": "react",
+                  "loc": "1:0-35"
+                },
+                {
+                  "moduleId": 14,
+                  "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
+                  "module": "./node_modules/react-redux/es/index.js + 22 modules",
+                  "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "react",
                   "loc": "1:0-79"
                 },
                 {
@@ -2126,25 +2135,16 @@
                   "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
                   "type": "harmony side effect evaluation",
                   "userRequest": "react",
-                  "loc": "1:0-35"
-                },
-                {
-                  "moduleId": 14,
-                  "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
-                  "module": "./node_modules/react-redux/es/index.js + 22 modules",
-                  "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "react",
-                  "loc": "1:0-35"
-                },
-                {
-                  "moduleId": 14,
-                  "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
-                  "module": "./node_modules/react-redux/es/index.js + 22 modules",
-                  "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "react",
                   "loc": "1:0-51"
+                },
+                {
+                  "moduleId": 14,
+                  "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
+                  "module": "./node_modules/react-redux/es/index.js + 22 modules",
+                  "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "react",
+                  "loc": "1:0-35"
                 },
                 {
                   "moduleId": 14,
@@ -3193,9 +3193,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/raisely/node_modules/history/esm/history.js",
-          "issuerId": 47,
-          "issuerName": "./node_modules/history/esm/history.js",
+          "issuer": "/home/raisely/node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuerId": null,
+          "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
           "issuerPath": [
             {
               "id": 35,
@@ -3208,14 +3208,14 @@
               "name": "./src/App.js"
             },
             {
-              "id": 21,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/history.js",
-              "name": "./src/history.js"
+              "id": null,
+              "identifier": "/home/raisely/node_modules/react-redux/es/index.js",
+              "name": "./node_modules/react-redux/es/index.js"
             },
             {
-              "id": 47,
-              "identifier": "/home/raisely/node_modules/history/esm/history.js",
-              "name": "./node_modules/history/esm/history.js"
+              "id": null,
+              "identifier": "/home/raisely/node_modules/react-redux/es/components/connectAdvanced.js",
+              "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
             }
           ],
           "failed": false,
@@ -3815,9 +3815,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/raisely/node_modules/react-redux/es/connect/connect.js",
+          "issuer": "/home/raisely/node_modules/react-redux/es/components/connectAdvanced.js",
           "issuerId": null,
-          "issuerName": "./node_modules/react-redux/es/connect/connect.js",
+          "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
           "issuerPath": [
             {
               "id": 35,
@@ -3836,8 +3836,8 @@
             },
             {
               "id": null,
-              "identifier": "/home/raisely/node_modules/react-redux/es/connect/connect.js",
-              "name": "./node_modules/react-redux/es/connect/connect.js"
+              "identifier": "/home/raisely/node_modules/react-redux/es/components/connectAdvanced.js",
+              "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
             }
           ],
           "failed": false,
@@ -4013,9 +4013,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -5053,7 +5053,7 @@
             "shallowEqual"
           ],
           "optimizationBailout": [
-            "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./node_modules/history/esm/history.js",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./node_modules/react-router-dom/esm/react-router-dom.js",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js because of ./node_modules/react-router-dom/esm/react-router-dom.js",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js (<- Module is not an ECMAScript module)",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/preact/compat/dist/compat.module.js (<- Module is referenced from these modules with unsupported syntax: ./src/App.js (referenced with cjs require), ./src/components/Button.js (referenced with cjs require), ./src/components/PasswordInput.js (referenced with cjs require), ./src/components/SignUp.js (referenced with cjs require), ./src/components/Success.js (referenced with cjs require), ./src/components/TextInput.js (referenced with cjs require), ./src/index.js (referenced with cjs require))",
@@ -6655,9 +6655,9 @@
               "prefetched": false,
               "chunks": [
               ],
-              "issuer": "/home/raisely/node_modules/react-redux/es/hooks/useSelector.js",
+              "issuer": "/home/raisely/node_modules/react-redux/es/hooks/useStore.js",
               "issuerId": null,
-              "issuerName": "./node_modules/react-redux/es/hooks/useSelector.js",
+              "issuerName": "./node_modules/react-redux/es/hooks/useStore.js",
               "issuerPath": [
                 {
                   "id": 35,
@@ -6676,8 +6676,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "/home/raisely/node_modules/react-redux/es/hooks/useSelector.js",
-                  "name": "./node_modules/react-redux/es/hooks/useSelector.js"
+                  "identifier": "/home/raisely/node_modules/react-redux/es/hooks/useStore.js",
+                  "name": "./node_modules/react-redux/es/hooks/useStore.js"
                 }
               ],
               "failed": false,
@@ -6824,9 +6824,9 @@
               "prefetched": false,
               "chunks": [
               ],
-              "issuer": "/home/raisely/node_modules/react-redux/es/connect/mapStateToProps.js",
+              "issuer": "/home/raisely/node_modules/react-redux/es/connect/mapDispatchToProps.js",
               "issuerId": null,
-              "issuerName": "./node_modules/react-redux/es/connect/mapStateToProps.js",
+              "issuerName": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
               "issuerPath": [
                 {
                   "id": 35,
@@ -6850,8 +6850,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "/home/raisely/node_modules/react-redux/es/connect/mapStateToProps.js",
-                  "name": "./node_modules/react-redux/es/connect/mapStateToProps.js"
+                  "identifier": "/home/raisely/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+                  "name": "./node_modules/react-redux/es/connect/mapDispatchToProps.js"
                 }
               ],
               "failed": false,
@@ -7973,9 +7973,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "issuerId": 75,
-          "issuerName": "./src/services/validateEmail.js",
+          "issuer": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "issuerId": 55,
+          "issuerName": "./src/services/signUp.js",
           "issuerPath": [
             {
               "id": 35,
@@ -7988,9 +7988,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             }
           ],
           "failed": false,
@@ -8055,9 +8055,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -8132,9 +8132,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -8214,9 +8214,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -8291,9 +8291,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -8368,9 +8368,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -8450,9 +8450,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -8537,9 +8537,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -8614,9 +8614,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -9093,7 +9093,7 @@
           "name": "./src/App.js",
           "index": 13,
           "index2": 111,
-          "size": 5210,
+          "size": 5334,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -9133,7 +9133,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1,
-          "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nrequire('preact/debug');\n\nvar React = require('react');\n\nvar _require = require('react-router-dom'),\n    Switch = _require.Switch,\n    Route = _require.Route,\n    Router = _require.Router,\n    Redirect = _require.Redirect;\n\nvar history = require('./history');\n\nvar _require2 = require('./components'),\n    SignUp = _require2.SignUp,\n    Success = _require2.Success;\n\nvar _require3 = require('react-redux'),\n    Provider = _require3.Provider;\n\nvar store = require('./store');\n\nvar Routes = function Routes(props) {\n  /*\n  \tSignup route appears twice to prevent an endless loop of\n  \tredirects since the exact prop is not used in the Redirect\n  \tcomponent\n  */\n  return /*#__PURE__*/React.createElement(Switch, null, /*#__PURE__*/React.createElement(Route, {\n    path: \"/success\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(Success, props);\n    }\n  }), /*#__PURE__*/React.createElement(Route, {\n    path: \"/signup\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(SignUp, props);\n    }\n  }), /*#__PURE__*/React.createElement(Redirect, {\n    from: \"/\",\n    to: \"/signup\"\n  }), /*#__PURE__*/React.createElement(Route, {\n    path: \"/signup\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(SignUp, props);\n    }\n  }));\n};\n\nvar App = /*#__PURE__*/function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  var _super = _createSuper(App);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _super.apply(this, arguments);\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      window.dispatchEvent(new window.CustomEvent('hide-basic-spinner'));\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(Provider, {\n        store: store\n      }, /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"toast\"\n      }, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"text\"\n      })), /*#__PURE__*/React.createElement(Router, {\n        history: history\n      }, /*#__PURE__*/React.createElement(Routes, null))));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nmodule.exports = App;"
+          "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nrequire('preact/debug');\n\nvar React = require('react');\n\nvar _require = require('react-router-dom'),\n    Switch = _require.Switch,\n    Route = _require.Route,\n    Router = _require.Router,\n    Redirect = _require.Redirect;\n\nvar history = require('./history');\n\nvar _require2 = require('./components'),\n    SignUp = _require2.SignUp,\n    Success = _require2.Success;\n\nvar _require3 = require('react-redux'),\n    Provider = _require3.Provider;\n\nvar store = require('./store');\n\nvar Routes = function Routes(props) {\n  /*\n  \tSignup route appears twice to prevent an endless loop of\n  \tredirects since the exact prop is not used in the Redirect\n  \tcomponent\n  */\n  return /*#__PURE__*/React.createElement(Switch, null, /*#__PURE__*/React.createElement(Route, {\n    path: \"/success\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(Success, props);\n    }\n  }), /*#__PURE__*/React.createElement(Route, {\n    path: \"/signup\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(SignUp, props);\n    }\n  }), /*#__PURE__*/React.createElement(Redirect, {\n    from: \"/\",\n    to: \"/signup\"\n  }), /*#__PURE__*/React.createElement(Route, {\n    path: \"/signup\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(SignUp, props);\n    }\n  }));\n};\n\nvar App = /*#__PURE__*/function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  var _super = _createSuper(App);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _super.apply(this, arguments);\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      window.dispatchEvent(new window.CustomEvent('hide-basic-spinner'));\n      setTimeout(function () {\n        window.toaster.toast('info', 'Welcome, please fill the form below');\n      }, 2000);\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(Provider, {\n        store: store\n      }, /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"toast\"\n      }, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"text\"\n      })), /*#__PURE__*/React.createElement(Router, {\n        history: history\n      }, /*#__PURE__*/React.createElement(Routes, null))));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nmodule.exports = App;"
         },
         {
           "id": 43,
@@ -9842,7 +9842,7 @@
           "name": "./src/components/SignUp.js",
           "index": 73,
           "index2": 105,
-          "size": 5355,
+          "size": 5353,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -9892,7 +9892,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3,
-          "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nvar React = require('react');\n\nvar TextInput = require('./TextInput');\n\nvar PasswordInput = require('./PasswordInput');\n\nvar Button = require('./Button');\n\nvar _require = require('./../services'),\n    validateName = _require.validateName,\n    validatePassword = _require.validatePassword,\n    validateEmail = _require.validateEmail,\n    validateConfirmPassword = _require.validateConfirmPassword,\n    signUp = _require.signUp;\n\nvar SignUp = /*#__PURE__*/function (_React$Component) {\n  _inherits(SignUp, _React$Component);\n\n  var _super = _createSuper(SignUp);\n\n  function SignUp(props) {\n    _classCallCheck(this, SignUp);\n\n    return _super.call(this, props);\n  }\n\n  _createClass(SignUp, [{\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(\"div\", {\n        className: \"signup\"\n      }, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"header\"\n      }, \"Sign Up\"), /*#__PURE__*/React.createElement(\"div\", {\n        className: \"body\"\n      }, /*#__PURE__*/React.createElement(TextInput, {\n        id: \"firstname\",\n        label: \"First Name\",\n        validateFunction: validateName\n      }), /*#__PURE__*/React.createElement(TextInput, {\n        id: \"lastname\",\n        label: \"Last Name\",\n        validateFunction: validateName\n      }), /*#__PURE__*/React.createElement(TextInput, {\n        id: \"email\",\n        label: \"Email\",\n        validateFunction: validateEmail\n      }), /*#__PURE__*/React.createElement(PasswordInput, {\n        id: \"password\",\n        label: \"Password\",\n        validateFunction: validatePassword,\n        siblingId: \"confirm_password\",\n        siblingValidateFunction: validateConfirmPassword\n      }), /*#__PURE__*/React.createElement(PasswordInput, {\n        id: \"confirm_password\",\n        label: \"Confirm Password\",\n        validateFunction: validateConfirmPassword,\n        siblingId: \"password\"\n      }), /*#__PURE__*/React.createElement(Button, {\n        id: \"signup_button\",\n        icon: \"icon-user-plus\",\n        task: signUp,\n        text: \"Register\"\n      }), /*#__PURE__*/React.createElement(\"div\", {\n        className: \"source-code-link\"\n      }, /*#__PURE__*/React.createElement(\"p\", null, \"Source code can be found at \", /*#__PURE__*/React.createElement(\"a\", {\n        href: \"#\"\n      }, \"https://github.com/nfmshow/raisely-signup\")))));\n    }\n  }]);\n\n  return SignUp;\n}(React.Component);\n\nmodule.exports = SignUp;"
+          "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nvar React = require('react');\n\nvar TextInput = require('./TextInput');\n\nvar PasswordInput = require('./PasswordInput');\n\nvar Button = require('./Button');\n\nvar _require = require('./../services'),\n    validateName = _require.validateName,\n    validatePassword = _require.validatePassword,\n    validateEmail = _require.validateEmail,\n    validateConfirmPassword = _require.validateConfirmPassword,\n    signUp = _require.signUp;\n\nvar SignUp = /*#__PURE__*/function (_React$Component) {\n  _inherits(SignUp, _React$Component);\n\n  var _super = _createSuper(SignUp);\n\n  function SignUp(props) {\n    _classCallCheck(this, SignUp);\n\n    return _super.call(this, props);\n  }\n\n  _createClass(SignUp, [{\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(\"div\", {\n        className: \"signup\"\n      }, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"header\"\n      }, \"Sign Up\"), /*#__PURE__*/React.createElement(\"div\", {\n        className: \"body\"\n      }, /*#__PURE__*/React.createElement(TextInput, {\n        id: \"firstname\",\n        label: \"First Name\",\n        validateFunction: validateName\n      }), /*#__PURE__*/React.createElement(TextInput, {\n        id: \"lastname\",\n        label: \"Last Name\",\n        validateFunction: validateName\n      }), /*#__PURE__*/React.createElement(TextInput, {\n        id: \"email\",\n        label: \"Email\",\n        validateFunction: validateEmail\n      }), /*#__PURE__*/React.createElement(PasswordInput, {\n        id: \"password\",\n        label: \"Password\",\n        validateFunction: validatePassword,\n        siblingId: \"confirm_password\",\n        siblingValidateFunction: validateConfirmPassword\n      }), /*#__PURE__*/React.createElement(PasswordInput, {\n        id: \"confirm_password\",\n        label: \"Confirm Password\",\n        validateFunction: validateConfirmPassword,\n        siblingId: \"password\"\n      }), /*#__PURE__*/React.createElement(Button, {\n        id: \"signup_button\",\n        icon: \"icon-user-plus\",\n        task: signUp,\n        text: \"Register\"\n      }), /*#__PURE__*/React.createElement(\"div\", {\n        className: \"source-code-link\"\n      }, /*#__PURE__*/React.createElement(\"p\", null, \"Source code is available \", /*#__PURE__*/React.createElement(\"a\", {\n        href: \"https://github.com/nfmshow/raisely-demo\"\n      }, \"here\")))));\n    }\n  }]);\n\n  return SignUp;\n}(React.Component);\n\nmodule.exports = SignUp;"
         },
         {
           "id": 55,
@@ -9976,9 +9976,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10039,9 +10039,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10107,9 +10107,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10180,9 +10180,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10253,9 +10253,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10331,9 +10331,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10404,9 +10404,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10477,9 +10477,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10555,9 +10555,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10638,9 +10638,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10716,9 +10716,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10794,9 +10794,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10877,9 +10877,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -10960,9 +10960,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -11038,9 +11038,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -11116,9 +11116,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -11184,9 +11184,9 @@
               "name": "./src/services/index.js"
             },
             {
-              "id": 75,
-              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-              "name": "./src/services/validateEmail.js"
+              "id": 55,
+              "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+              "name": "./src/services/signUp.js"
             },
             {
               "id": 25,
@@ -11335,7 +11335,7 @@
           "name": "./src/services/validateEmail.js",
           "index": 105,
           "index2": 100,
-          "size": 1668,
+          "size": 1669,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11380,7 +11380,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 2,
-          "source": "var axios = require('axios');\n\nvar _require = require('./../constants'),\n    INPUT_VALID = _require.INPUT_VALID,\n    INPUT_INVALID = _require.INPUT_INVALID,\n    INPUT_UNSURE = _require.INPUT_UNSURE,\n    BASE_URL = _require.BASE_URL,\n    REQUEST_TIMEOUT = _require.REQUEST_TIMEOUT;\n\nvar isEmail = function isEmail(email) {\n  var regexp = /^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/;\n  return regexp.test(email);\n};\n\nmodule.exports = function (dispatch, getState, options) {\n  var value = getState().userInput[options.id].value.trim();\n  var errorText;\n\n  if (!value.length) {\n    errorText = 'Your email is required!';\n  } else if (!isEmail(value)) {\n    errorText = 'Invalid email address!';\n  }\n\n  if (errorText) {\n    dispatch({\n      type: INPUT_INVALID,\n      payload: {\n        id: options.id,\n        errorText: errorText\n      }\n    });\n    return;\n  }\n\n  axios({\n    headers: {\n      'Content-Type': 'application/json'\n    },\n    data: {\n      email: value\n    },\n    responseType: 'json',\n    url: BASE_URL + '/check-user',\n    method: 'post',\n    timeout: REQUEST_TIMEOUT\n  }).then(function (response) {\n    console.log(response);\n\n    if (response.data.status === 'EXISTS') {\n      dispatch({\n        type: INPUT_INVALID,\n        payload: {\n          id: options.id,\n          errorText: 'Another user has registered with this email!'\n        }\n      });\n      return;\n    }\n\n    throw '';\n  })[\"catch\"](function (err) {\n    console.log(err);\n    dispatch({\n      type: INPUT_VALID,\n      payload: {\n        id: options.id\n      }\n    });\n  });\n};"
+          "source": "var axios = require('axios');\n\nvar _require = require('./../constants'),\n    INPUT_VALID = _require.INPUT_VALID,\n    INPUT_INVALID = _require.INPUT_INVALID,\n    INPUT_UNSURE = _require.INPUT_UNSURE,\n    BASE_URL = _require.BASE_URL,\n    REQUEST_TIMEOUT = _require.REQUEST_TIMEOUT;\n\nvar isEmail = function isEmail(email) {\n  var regexp = /^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/;\n  return regexp.test(email);\n};\n\nmodule.exports = function (dispatch, getState, options) {\n  var value = getState().userInput[options.id].value.trim();\n  var errorText;\n\n  if (!value.length) {\n    errorText = 'Your email is required!';\n  } else if (!isEmail(value)) {\n    errorText = 'Invalid email address!';\n  }\n\n  if (errorText) {\n    dispatch({\n      type: INPUT_INVALID,\n      payload: {\n        id: options.id,\n        errorText: errorText\n      }\n    });\n    return;\n  }\n\n  axios({\n    headers: {\n      'Content-Type': 'application/json'\n    },\n    data: {\n      email: value\n    },\n    responseType: 'json',\n    url: BASE_URL + '/check-user',\n    method: 'post',\n    timeout: REQUEST_TIMEOUT\n  }).then(function (response) {\n    //console.log(response);\n    if (response.data.status === 'EXISTS') {\n      dispatch({\n        type: INPUT_INVALID,\n        payload: {\n          id: options.id,\n          errorText: 'Another user has registered with this email!'\n        }\n      });\n      return;\n    }\n\n    throw '';\n  })[\"catch\"](function (err) {\n    console.log(err);\n    dispatch({\n      type: INPUT_VALID,\n      payload: {\n        id: options.id\n      }\n    });\n  });\n};"
         },
         {
           "id": 76,
@@ -11834,7 +11834,7 @@
             "NavLink"
           ],
           "optimizationBailout": [
-            "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./node_modules/history/esm/history.js",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./node_modules/react-redux/es/index.js",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js because of ./node_modules/mini-create-react-context/dist/esm/index.js",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js because of ./node_modules/react-redux/es/index.js",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js (<- Module is not an ECMAScript module)",
@@ -13736,6 +13736,15 @@
           "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
+          "loc": "1:0-35"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
+          "module": "./node_modules/react-redux/es/index.js + 22 modules",
+          "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
           "loc": "1:0-79"
         },
         {
@@ -13745,25 +13754,16 @@
           "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-35"
-        },
-        {
-          "moduleId": 14,
-          "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
-          "module": "./node_modules/react-redux/es/index.js + 22 modules",
-          "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-35"
-        },
-        {
-          "moduleId": 14,
-          "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
-          "module": "./node_modules/react-redux/es/index.js + 22 modules",
-          "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
           "loc": "1:0-51"
+        },
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
+          "module": "./node_modules/react-redux/es/index.js + 22 modules",
+          "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-35"
         },
         {
           "moduleId": 14,
@@ -14665,6 +14665,15 @@
               "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
+              "loc": "1:0-35"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
+              "module": "./node_modules/react-redux/es/index.js + 22 modules",
+              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
               "loc": "1:0-79"
             },
             {
@@ -14674,25 +14683,16 @@
               "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-35"
-            },
-            {
-              "moduleId": 14,
-              "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
-              "module": "./node_modules/react-redux/es/index.js + 22 modules",
-              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-35"
-            },
-            {
-              "moduleId": 14,
-              "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
-              "module": "./node_modules/react-redux/es/index.js + 22 modules",
-              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-51"
+            },
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/home/raisely/node_modules/react-redux/es/index.js 972fd416e98e7d1e7dbb6ef79ff6d4b2",
+              "module": "./node_modules/react-redux/es/index.js + 22 modules",
+              "moduleName": "./node_modules/react-redux/es/index.js + 22 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-35"
             },
             {
               "moduleId": 14,
@@ -15741,9 +15741,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/raisely/node_modules/history/esm/history.js",
-      "issuerId": 47,
-      "issuerName": "./node_modules/history/esm/history.js",
+      "issuer": "/home/raisely/node_modules/react-redux/es/components/connectAdvanced.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
       "issuerPath": [
         {
           "id": 35,
@@ -15756,14 +15756,14 @@
           "name": "./src/App.js"
         },
         {
-          "id": 21,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/history.js",
-          "name": "./src/history.js"
+          "id": null,
+          "identifier": "/home/raisely/node_modules/react-redux/es/index.js",
+          "name": "./node_modules/react-redux/es/index.js"
         },
         {
-          "id": 47,
-          "identifier": "/home/raisely/node_modules/history/esm/history.js",
-          "name": "./node_modules/history/esm/history.js"
+          "id": null,
+          "identifier": "/home/raisely/node_modules/react-redux/es/components/connectAdvanced.js",
+          "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
         }
       ],
       "failed": false,
@@ -16363,9 +16363,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/raisely/node_modules/react-redux/es/connect/connect.js",
+      "issuer": "/home/raisely/node_modules/react-redux/es/components/connectAdvanced.js",
       "issuerId": null,
-      "issuerName": "./node_modules/react-redux/es/connect/connect.js",
+      "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
       "issuerPath": [
         {
           "id": 35,
@@ -16384,8 +16384,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/raisely/node_modules/react-redux/es/connect/connect.js",
-          "name": "./node_modules/react-redux/es/connect/connect.js"
+          "identifier": "/home/raisely/node_modules/react-redux/es/components/connectAdvanced.js",
+          "name": "./node_modules/react-redux/es/components/connectAdvanced.js"
         }
       ],
       "failed": false,
@@ -16561,9 +16561,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -17705,7 +17705,7 @@
         "shallowEqual"
       ],
       "optimizationBailout": [
-        "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./node_modules/history/esm/history.js",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./node_modules/react-router-dom/esm/react-router-dom.js",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js because of ./node_modules/react-router-dom/esm/react-router-dom.js",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js (<- Module is not an ECMAScript module)",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/preact/compat/dist/compat.module.js (<- Module is referenced from these modules with unsupported syntax: ./src/App.js (referenced with cjs require), ./src/components/Button.js (referenced with cjs require), ./src/components/PasswordInput.js (referenced with cjs require), ./src/components/SignUp.js (referenced with cjs require), ./src/components/Success.js (referenced with cjs require), ./src/components/TextInput.js (referenced with cjs require), ./src/index.js (referenced with cjs require))",
@@ -19307,9 +19307,9 @@
           "prefetched": false,
           "chunks": [
           ],
-          "issuer": "/home/raisely/node_modules/react-redux/es/hooks/useSelector.js",
+          "issuer": "/home/raisely/node_modules/react-redux/es/hooks/useStore.js",
           "issuerId": null,
-          "issuerName": "./node_modules/react-redux/es/hooks/useSelector.js",
+          "issuerName": "./node_modules/react-redux/es/hooks/useStore.js",
           "issuerPath": [
             {
               "id": 35,
@@ -19328,8 +19328,8 @@
             },
             {
               "id": null,
-              "identifier": "/home/raisely/node_modules/react-redux/es/hooks/useSelector.js",
-              "name": "./node_modules/react-redux/es/hooks/useSelector.js"
+              "identifier": "/home/raisely/node_modules/react-redux/es/hooks/useStore.js",
+              "name": "./node_modules/react-redux/es/hooks/useStore.js"
             }
           ],
           "failed": false,
@@ -19476,9 +19476,9 @@
           "prefetched": false,
           "chunks": [
           ],
-          "issuer": "/home/raisely/node_modules/react-redux/es/connect/mapStateToProps.js",
+          "issuer": "/home/raisely/node_modules/react-redux/es/connect/mapDispatchToProps.js",
           "issuerId": null,
-          "issuerName": "./node_modules/react-redux/es/connect/mapStateToProps.js",
+          "issuerName": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
           "issuerPath": [
             {
               "id": 35,
@@ -19502,8 +19502,8 @@
             },
             {
               "id": null,
-              "identifier": "/home/raisely/node_modules/react-redux/es/connect/mapStateToProps.js",
-              "name": "./node_modules/react-redux/es/connect/mapStateToProps.js"
+              "identifier": "/home/raisely/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+              "name": "./node_modules/react-redux/es/connect/mapDispatchToProps.js"
             }
           ],
           "failed": false,
@@ -20625,9 +20625,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-      "issuerId": 75,
-      "issuerName": "./src/services/validateEmail.js",
+      "issuer": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+      "issuerId": 55,
+      "issuerName": "./src/services/signUp.js",
       "issuerPath": [
         {
           "id": 35,
@@ -20640,9 +20640,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         }
       ],
       "failed": false,
@@ -20707,9 +20707,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -20784,9 +20784,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -20866,9 +20866,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -20943,9 +20943,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -21020,9 +21020,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -21102,9 +21102,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -21189,9 +21189,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -21266,9 +21266,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -21745,7 +21745,7 @@
       "name": "./src/App.js",
       "index": 13,
       "index2": 111,
-      "size": 5210,
+      "size": 5334,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -21785,7 +21785,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 1,
-      "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nrequire('preact/debug');\n\nvar React = require('react');\n\nvar _require = require('react-router-dom'),\n    Switch = _require.Switch,\n    Route = _require.Route,\n    Router = _require.Router,\n    Redirect = _require.Redirect;\n\nvar history = require('./history');\n\nvar _require2 = require('./components'),\n    SignUp = _require2.SignUp,\n    Success = _require2.Success;\n\nvar _require3 = require('react-redux'),\n    Provider = _require3.Provider;\n\nvar store = require('./store');\n\nvar Routes = function Routes(props) {\n  /*\n  \tSignup route appears twice to prevent an endless loop of\n  \tredirects since the exact prop is not used in the Redirect\n  \tcomponent\n  */\n  return /*#__PURE__*/React.createElement(Switch, null, /*#__PURE__*/React.createElement(Route, {\n    path: \"/success\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(Success, props);\n    }\n  }), /*#__PURE__*/React.createElement(Route, {\n    path: \"/signup\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(SignUp, props);\n    }\n  }), /*#__PURE__*/React.createElement(Redirect, {\n    from: \"/\",\n    to: \"/signup\"\n  }), /*#__PURE__*/React.createElement(Route, {\n    path: \"/signup\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(SignUp, props);\n    }\n  }));\n};\n\nvar App = /*#__PURE__*/function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  var _super = _createSuper(App);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _super.apply(this, arguments);\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      window.dispatchEvent(new window.CustomEvent('hide-basic-spinner'));\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(Provider, {\n        store: store\n      }, /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"toast\"\n      }, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"text\"\n      })), /*#__PURE__*/React.createElement(Router, {\n        history: history\n      }, /*#__PURE__*/React.createElement(Routes, null))));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nmodule.exports = App;"
+      "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nrequire('preact/debug');\n\nvar React = require('react');\n\nvar _require = require('react-router-dom'),\n    Switch = _require.Switch,\n    Route = _require.Route,\n    Router = _require.Router,\n    Redirect = _require.Redirect;\n\nvar history = require('./history');\n\nvar _require2 = require('./components'),\n    SignUp = _require2.SignUp,\n    Success = _require2.Success;\n\nvar _require3 = require('react-redux'),\n    Provider = _require3.Provider;\n\nvar store = require('./store');\n\nvar Routes = function Routes(props) {\n  /*\n  \tSignup route appears twice to prevent an endless loop of\n  \tredirects since the exact prop is not used in the Redirect\n  \tcomponent\n  */\n  return /*#__PURE__*/React.createElement(Switch, null, /*#__PURE__*/React.createElement(Route, {\n    path: \"/success\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(Success, props);\n    }\n  }), /*#__PURE__*/React.createElement(Route, {\n    path: \"/signup\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(SignUp, props);\n    }\n  }), /*#__PURE__*/React.createElement(Redirect, {\n    from: \"/\",\n    to: \"/signup\"\n  }), /*#__PURE__*/React.createElement(Route, {\n    path: \"/signup\",\n    render: function render(props) {\n      return /*#__PURE__*/React.createElement(SignUp, props);\n    }\n  }));\n};\n\nvar App = /*#__PURE__*/function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  var _super = _createSuper(App);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _super.apply(this, arguments);\n  }\n\n  _createClass(App, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      window.dispatchEvent(new window.CustomEvent('hide-basic-spinner'));\n      setTimeout(function () {\n        window.toaster.toast('info', 'Welcome, please fill the form below');\n      }, 2000);\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(Provider, {\n        store: store\n      }, /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"toast\"\n      }, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"text\"\n      })), /*#__PURE__*/React.createElement(Router, {\n        history: history\n      }, /*#__PURE__*/React.createElement(Routes, null))));\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nmodule.exports = App;"
     },
     {
       "id": 43,
@@ -22494,7 +22494,7 @@
       "name": "./src/components/SignUp.js",
       "index": 73,
       "index2": 105,
-      "size": 5355,
+      "size": 5353,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -22544,7 +22544,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 3,
-      "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nvar React = require('react');\n\nvar TextInput = require('./TextInput');\n\nvar PasswordInput = require('./PasswordInput');\n\nvar Button = require('./Button');\n\nvar _require = require('./../services'),\n    validateName = _require.validateName,\n    validatePassword = _require.validatePassword,\n    validateEmail = _require.validateEmail,\n    validateConfirmPassword = _require.validateConfirmPassword,\n    signUp = _require.signUp;\n\nvar SignUp = /*#__PURE__*/function (_React$Component) {\n  _inherits(SignUp, _React$Component);\n\n  var _super = _createSuper(SignUp);\n\n  function SignUp(props) {\n    _classCallCheck(this, SignUp);\n\n    return _super.call(this, props);\n  }\n\n  _createClass(SignUp, [{\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(\"div\", {\n        className: \"signup\"\n      }, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"header\"\n      }, \"Sign Up\"), /*#__PURE__*/React.createElement(\"div\", {\n        className: \"body\"\n      }, /*#__PURE__*/React.createElement(TextInput, {\n        id: \"firstname\",\n        label: \"First Name\",\n        validateFunction: validateName\n      }), /*#__PURE__*/React.createElement(TextInput, {\n        id: \"lastname\",\n        label: \"Last Name\",\n        validateFunction: validateName\n      }), /*#__PURE__*/React.createElement(TextInput, {\n        id: \"email\",\n        label: \"Email\",\n        validateFunction: validateEmail\n      }), /*#__PURE__*/React.createElement(PasswordInput, {\n        id: \"password\",\n        label: \"Password\",\n        validateFunction: validatePassword,\n        siblingId: \"confirm_password\",\n        siblingValidateFunction: validateConfirmPassword\n      }), /*#__PURE__*/React.createElement(PasswordInput, {\n        id: \"confirm_password\",\n        label: \"Confirm Password\",\n        validateFunction: validateConfirmPassword,\n        siblingId: \"password\"\n      }), /*#__PURE__*/React.createElement(Button, {\n        id: \"signup_button\",\n        icon: \"icon-user-plus\",\n        task: signUp,\n        text: \"Register\"\n      }), /*#__PURE__*/React.createElement(\"div\", {\n        className: \"source-code-link\"\n      }, /*#__PURE__*/React.createElement(\"p\", null, \"Source code can be found at \", /*#__PURE__*/React.createElement(\"a\", {\n        href: \"#\"\n      }, \"https://github.com/nfmshow/raisely-signup\")))));\n    }\n  }]);\n\n  return SignUp;\n}(React.Component);\n\nmodule.exports = SignUp;"
+      "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nvar React = require('react');\n\nvar TextInput = require('./TextInput');\n\nvar PasswordInput = require('./PasswordInput');\n\nvar Button = require('./Button');\n\nvar _require = require('./../services'),\n    validateName = _require.validateName,\n    validatePassword = _require.validatePassword,\n    validateEmail = _require.validateEmail,\n    validateConfirmPassword = _require.validateConfirmPassword,\n    signUp = _require.signUp;\n\nvar SignUp = /*#__PURE__*/function (_React$Component) {\n  _inherits(SignUp, _React$Component);\n\n  var _super = _createSuper(SignUp);\n\n  function SignUp(props) {\n    _classCallCheck(this, SignUp);\n\n    return _super.call(this, props);\n  }\n\n  _createClass(SignUp, [{\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/React.createElement(\"div\", {\n        className: \"signup\"\n      }, /*#__PURE__*/React.createElement(\"div\", {\n        className: \"header\"\n      }, \"Sign Up\"), /*#__PURE__*/React.createElement(\"div\", {\n        className: \"body\"\n      }, /*#__PURE__*/React.createElement(TextInput, {\n        id: \"firstname\",\n        label: \"First Name\",\n        validateFunction: validateName\n      }), /*#__PURE__*/React.createElement(TextInput, {\n        id: \"lastname\",\n        label: \"Last Name\",\n        validateFunction: validateName\n      }), /*#__PURE__*/React.createElement(TextInput, {\n        id: \"email\",\n        label: \"Email\",\n        validateFunction: validateEmail\n      }), /*#__PURE__*/React.createElement(PasswordInput, {\n        id: \"password\",\n        label: \"Password\",\n        validateFunction: validatePassword,\n        siblingId: \"confirm_password\",\n        siblingValidateFunction: validateConfirmPassword\n      }), /*#__PURE__*/React.createElement(PasswordInput, {\n        id: \"confirm_password\",\n        label: \"Confirm Password\",\n        validateFunction: validateConfirmPassword,\n        siblingId: \"password\"\n      }), /*#__PURE__*/React.createElement(Button, {\n        id: \"signup_button\",\n        icon: \"icon-user-plus\",\n        task: signUp,\n        text: \"Register\"\n      }), /*#__PURE__*/React.createElement(\"div\", {\n        className: \"source-code-link\"\n      }, /*#__PURE__*/React.createElement(\"p\", null, \"Source code is available \", /*#__PURE__*/React.createElement(\"a\", {\n        href: \"https://github.com/nfmshow/raisely-demo\"\n      }, \"here\")))));\n    }\n  }]);\n\n  return SignUp;\n}(React.Component);\n\nmodule.exports = SignUp;"
     },
     {
       "id": 55,
@@ -22628,9 +22628,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -22691,9 +22691,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -22759,9 +22759,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -22832,9 +22832,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -22905,9 +22905,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -22983,9 +22983,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23056,9 +23056,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23129,9 +23129,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23207,9 +23207,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23290,9 +23290,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23368,9 +23368,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23446,9 +23446,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23529,9 +23529,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23612,9 +23612,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23690,9 +23690,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23768,9 +23768,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23836,9 +23836,9 @@
           "name": "./src/services/index.js"
         },
         {
-          "id": 75,
-          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/validateEmail.js",
-          "name": "./src/services/validateEmail.js"
+          "id": 55,
+          "identifier": "/home/raisely/node_modules/babel-loader/lib/index.js??ref--4!/home/raisely/src/services/signUp.js",
+          "name": "./src/services/signUp.js"
         },
         {
           "id": 25,
@@ -23987,7 +23987,7 @@
       "name": "./src/services/validateEmail.js",
       "index": 105,
       "index2": 100,
-      "size": 1668,
+      "size": 1669,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -24032,7 +24032,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 2,
-      "source": "var axios = require('axios');\n\nvar _require = require('./../constants'),\n    INPUT_VALID = _require.INPUT_VALID,\n    INPUT_INVALID = _require.INPUT_INVALID,\n    INPUT_UNSURE = _require.INPUT_UNSURE,\n    BASE_URL = _require.BASE_URL,\n    REQUEST_TIMEOUT = _require.REQUEST_TIMEOUT;\n\nvar isEmail = function isEmail(email) {\n  var regexp = /^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/;\n  return regexp.test(email);\n};\n\nmodule.exports = function (dispatch, getState, options) {\n  var value = getState().userInput[options.id].value.trim();\n  var errorText;\n\n  if (!value.length) {\n    errorText = 'Your email is required!';\n  } else if (!isEmail(value)) {\n    errorText = 'Invalid email address!';\n  }\n\n  if (errorText) {\n    dispatch({\n      type: INPUT_INVALID,\n      payload: {\n        id: options.id,\n        errorText: errorText\n      }\n    });\n    return;\n  }\n\n  axios({\n    headers: {\n      'Content-Type': 'application/json'\n    },\n    data: {\n      email: value\n    },\n    responseType: 'json',\n    url: BASE_URL + '/check-user',\n    method: 'post',\n    timeout: REQUEST_TIMEOUT\n  }).then(function (response) {\n    console.log(response);\n\n    if (response.data.status === 'EXISTS') {\n      dispatch({\n        type: INPUT_INVALID,\n        payload: {\n          id: options.id,\n          errorText: 'Another user has registered with this email!'\n        }\n      });\n      return;\n    }\n\n    throw '';\n  })[\"catch\"](function (err) {\n    console.log(err);\n    dispatch({\n      type: INPUT_VALID,\n      payload: {\n        id: options.id\n      }\n    });\n  });\n};"
+      "source": "var axios = require('axios');\n\nvar _require = require('./../constants'),\n    INPUT_VALID = _require.INPUT_VALID,\n    INPUT_INVALID = _require.INPUT_INVALID,\n    INPUT_UNSURE = _require.INPUT_UNSURE,\n    BASE_URL = _require.BASE_URL,\n    REQUEST_TIMEOUT = _require.REQUEST_TIMEOUT;\n\nvar isEmail = function isEmail(email) {\n  var regexp = /^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/;\n  return regexp.test(email);\n};\n\nmodule.exports = function (dispatch, getState, options) {\n  var value = getState().userInput[options.id].value.trim();\n  var errorText;\n\n  if (!value.length) {\n    errorText = 'Your email is required!';\n  } else if (!isEmail(value)) {\n    errorText = 'Invalid email address!';\n  }\n\n  if (errorText) {\n    dispatch({\n      type: INPUT_INVALID,\n      payload: {\n        id: options.id,\n        errorText: errorText\n      }\n    });\n    return;\n  }\n\n  axios({\n    headers: {\n      'Content-Type': 'application/json'\n    },\n    data: {\n      email: value\n    },\n    responseType: 'json',\n    url: BASE_URL + '/check-user',\n    method: 'post',\n    timeout: REQUEST_TIMEOUT\n  }).then(function (response) {\n    //console.log(response);\n    if (response.data.status === 'EXISTS') {\n      dispatch({\n        type: INPUT_INVALID,\n        payload: {\n          id: options.id,\n          errorText: 'Another user has registered with this email!'\n        }\n      });\n      return;\n    }\n\n    throw '';\n  })[\"catch\"](function (err) {\n    console.log(err);\n    dispatch({\n      type: INPUT_VALID,\n      payload: {\n        id: options.id\n      }\n    });\n  });\n};"
     },
     {
       "id": 76,
@@ -24486,7 +24486,7 @@
         "NavLink"
       ],
       "optimizationBailout": [
-        "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./node_modules/history/esm/history.js",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./node_modules/react-redux/es/index.js",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js because of ./node_modules/mini-create-react-context/dist/esm/index.js",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js because of ./node_modules/react-redux/es/index.js",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js (<- Module is not an ECMAScript module)",
