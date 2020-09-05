@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Raisely | SignUp</title>
+		<style id="first-style">
+			*,
+			*::before,
+			*::after {
+				box-sizing: border-box;
+				font-family: 'futura';
+				position: relative;
+			}
+			
+			.icon:before {
+				font-family: 'icomoon' !important;
+				speak: never;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+			
+			body {
+				margin: 0;
+			}
+			
+			@keyframes spin {
+				0% {
+					-webkit-transform: rotate(0deg);
+					-moz-transform: rotate(0deg);
+					-o-transform: rotate(0deg);
+					transform: rotate(0deg);
+				}
+				100% {
+					-webkit-transform: rotate(360deg);
+					-moz-transform: rotate(360deg);
+					-o-transform: rotate(360deg);
+					transform: rotate(360deg);
+				}
+			}
+			
+			#basic-spinner {
+				display: flex;
+				width: 100vw;
+				height: 100vh;
+				overflow: hidden;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+			}
+			
+			#basic-spinner .text {
+				font-family: 'futura';
+				justify-content: center;
+				align-items: center;
+				font-size: 1.15rem;
+				color: rgb(74, 36, 185);
+			}
+			 
+			#basic-spinner .body {
+				margin-top: 0.6rem;
+				display: flex;
+				width: 2.1rem;
+				height: 2.1rem;
+				border: 0.18rem solid rgb(74, 36, 185);
+				border-right: 0.18rem solid transparent;
+				border-radius: 50%;
+				-webkit-animation: spin 0.4s linear 0s infinite;
+				-moz-animation: spin 0.4s linear 0s infinite;
+				-o-animation: spin 0.4s linear 0s infinite;
+				animation: spin 0.4s linear 0s infinite;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="basic-spinner">
+			<div class="text"></div>
+			<div class="body"></div>
+		</div>
+		<div id="root"></div>
+		<noscript>
+			This app requires JavaScript to function properly.
+		</noscript>
+		<script>
+			(function() {
+				var hostname = window.location.hostname;
+				var port = '';
+				if (!['443', '80'].includes(toString(window.location.port))) {
+					port = ':' + window.location.port;
+				}
+				var protocol = window.location.href.split('//')[0] + '//';
+				window.dynamicURL = protocol + hostname + port;
+				var script = document.createElement('script');
+				script.src = dynamicURL + '/dev-tools/eruda.js';
+				script.onload = function() {
+					eruda.init();
+				}
+				document.head.append(script);
+			})();
+		</script>
+		<script>
+			(function() {
+				/* Prevent Scrolling */
+				var keys = {
+					'37': true,
+					'38': true,
+					'39': true,
+					'40':  true
+				};
+				
+				function preventDefaultForScrollKeys(e) {
+					if (keys[e.keyCode]) {
+						e.preventDefault();
+						return;
+					}
+				}
+				function preventDefault(e) {
+					e.preventDefault();
+				}
+				
+				/*
+				It appears the passive option for window.addEventListener is enabled
+				by default on some browsers. This test will be passed on those browsers.
+				When passive option is enabled, preventDefault cannot be called
+				*/
+				var passiveSupported = false;
+				try {
+					window.addEventListener('test', null, Object.defineProperty({}, 'passive', {
+						get: function() {
+							passiveSupported = true;
+						}
+					}));
+				}
+				catch(err) {}
+				
+				//Some browsers use mousewheel instead of wheel event
+				var wheelOptions = passiveSupported ? { passive: false } : false;
+				var wheelEvent = ('onwheel' in document.createElement('div')) ? 'wheel' : 'mousewheel';
+				
+				window.disableScroll = function() {
+					window.addEventListener('DOMMouseScroll', preventDefault, false); // older FF
+					window.addEventListener(wheelEvent, preventDefault, wheelOptions); // modern desktop
+					window.addEventListener('touchmove', preventDefault, wheelOptions); // mobile
+					window.addEventListener('keydown', preventDefaultForScrollKeys, false);
+				}
+				window.enableScroll = function() {
+					window.removeEventListener('DOMMouseScroll', preventDefault, false);
+					window.removeEventListener(wheelEvent, preventDefault, wheelOptions);
+					window.removeEventListener('touchmove', preventDefault, wheelOptions);
+					window.removeEventListener('keydown', preventDefaultForScrollKeys, false);
+				}
+				
+				disableScroll();
+				
+				window.addEventListener('hide-basic-spinner', function() {
+					document.getElementById('basic-spinner').style.display = 'none';
+					enableScroll();
+				});
+				
+				function loadFonts(fonts) {
+					try {
+						for (var i = 0; i < fonts.length; i++) {
+							(function() {
+								var font = new FontFace(fonts[i].name, 'url(' + fonts[i].url + ')');
+								font.load().then((function(loadedFont) {
+									document.fonts.add(loadedFont);
+									if (this.name === 'futura') {
+										document.querySelector('#basic-spinner .text').innerHTML = 'Raisely';
+									}
+								}).bind(fonts[i]));
+							})()
+						}
+					}
+					catch(err) {
+						var style = document.createElement('style');
+						var cssText = '';
+						for (var i = 0; i < fonts.length; i++) {
+							if (/\.ttf$/.test(fonts[i].url)) {
+								fonts[i].format = 'truetype';
+							}
+							else if (/\.otf$/.test(fonts[i].url)) {
+								fonts[i].format = 'opentype';
+							}
+							cssText = cssText + '@font-face {' +
+								'font-family: "' + fonts[i].name + '";' +
+								'src: url("' + fonts[i].url + '") format("' + fonts[i].format + '");' +
+							'}';
+						}
+						style.innerHTML = cssText;
+						document.head.append(style);
+					}
+				}
+				
+				loadFonts([
+					{
+						name: 'futura',
+						url: dynamicURL + '/assets/fonts/futura-medium.otf'
+					},
+					{
+						name: 'icomoon',
+						url: dynamicURL + '/assets/fonts/icomoon.ttf'
+					}
+				]);
+				
+				var appStyle = document.createElement('link');
+				appStyle.rel = 'stylesheet';
+				appStyle.href = dynamicURL + '/css/main.raisely.css';
+				appStyle.onload = function() {
+					var appScript = document.createElement('script');
+					appScript.src = dynamicURL + '/js/main.raisely.js';
+					document.head.append(appScript);
+				}
+				document.head.append(appStyle);
+				
+			})();
+		</script>
+	</body>
+</html>

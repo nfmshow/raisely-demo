@@ -1,0 +1,36 @@
+.icon-check:before {
+  content: "\f00c";
+}
+.icon-times:before {
+  content: "\f00d";
+}
+.icon-check-circle:before {
+  content: "\f058";
+}
+.icon-eye:before {
+  content: "\f06e";
+}
+.icon-eye-slash:before {
+  content: "\f070";
+}
+.icon-user-plus:before {
+  content: "\f234";
+}
+.icon-check-light:before {
+  content: "\f00e";
+}
+.icon-times-light:before {
+  content: "\f00f";
+}
+.icon-check-circle-light:before {
+  content: "\f059";
+}
+.icon-eye-light:before {
+  content: "\f06f";
+}
+.icon-eye-slash-light:before {
+  content: "\f071";
+}
+.icon-user-plus-light:before {
+  content: "\f235";
+}

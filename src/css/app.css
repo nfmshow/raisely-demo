@@ -1,0 +1,234 @@
+/* Removes default browser effects on focus */
+*:focus {
+	outline: 0;
+	box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+/* Removes autofill background colour change in chrome */
+@-webkit-keyframes autofill {
+    0%,100% {
+        color: #333;
+        background: transparent;
+    }
+}
+input:-webkit-autofill {
+    -webkit-animation-delay: 1s;
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+   font-size: 0.8rem;
+}
+:-moz-placeholder {
+   text-align: center;
+   font-size: 0.8rem;
+}
+::-moz-placeholder { 
+   text-align: center;  
+   font-size: 0.8rem;
+}
+:-ms-input-placeholder {  
+   text-align: center; 
+   font-size: 0.8rem;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.signup .header {
+	width: 100%;
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	margin-top: 0.7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(74, 36, 185);
+}
+.signup .body {
+	width: 100%;
+	padding: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 1.5rem;
+}
+.input-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin-bottom: 0.7rem;
+	height: 5rem;
+	width: 22rem;
+	max-width: 90vw;
+}
+.input-label {
+	display: flex;
+	height: 1.5rem;
+	justify-content: flex-start;
+	margin-bottom: 0.3rem;
+	color: #333;
+}
+.input-wrapper {
+	height: 2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+.modded-input {
+	border: 1.5px solid rgb(74, 36, 185);
+	font-size: 1rem;
+	border-radius: 3px;
+	height: 2rem;
+	width: calc(100% - 0.4rem);
+	padding: 0.2rem 1.5rem 0.2rem 0.4rem;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+	position: relative;
+	background: transparent;
+}
+.input-wrapper .icon {
+	font-size: 1.1rem;
+	right: 0.6rem;
+	position: absolute;
+	display: inline-block;
+}
+.icon.info {
+	color: rgb(74, 36, 185);
+}
+.icon.invalid {
+	color: red;
+}
+.icon.valid {
+	color: green;
+}
+.modded-input.invalid {
+	border: 1.5px solid red;
+}
+.modded-input-wrapper .icon {
+	font-size: 1.1rem;
+	right: 0.6rem;
+	position: absolute;
+	display: inline-block;
+}
+.error-text {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-top: 0.15rem;
+	height: 1.1rem;
+	color: red;
+}
+.error-text small {
+	text-align: center;
+}
+.submit-button {
+	background: rgb(74, 36, 185);
+	color: #fff;
+	margin-top: 1.35rem;
+	padding: 0.3rem 0.45rem 0.3rem 0.45rem;
+	width: 6.5rem;
+	height: 2.25rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.35rem;
+}
+.submit-button .button-text {
+	padding-left: 0.45rem;
+}
+.button-spinner {
+	width: 1.15rem;
+	height: 1.15rem;
+	border: 0.12rem solid #fff;
+	border-right: 0.12rem solid transparent;
+	border-radius: 50%;
+	-webkit-animation: spin 0.5s linear 0s infinite;
+	-moz-animation: spin 0.5s linear 0s infinite;
+	-o-animation: spin 0.5s linear 0s infinite;
+	animation: spin 0.5s linear 0s infinite;
+}
+.source-code-link {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+}
+.source-code-link p {
+	text-align: center;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	color: #333;
+}
+.source-code-link a {
+	color: rgb(74, 36, 185);
+}
+.success-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	height: 100vh;
+}
+.success-page .text {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 1.2rem;
+	color: rgb(74, 36, 185);
+}
+.success-page .text p {
+	text-align: center;
+}
+.success-page .success-icon {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 1rem;
+	color: rgb(74, 36, 185);
+}
+.success-page .success-icon span {
+	text-align: center;
+	font-size: 4rem;
+}
+.toast {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	display: flex;
+	width: 100%;
+	height: 0;
+	opacity: 0;
+	border-bottom: 0px solid #333;
+	padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+	justify-content: center;
+	align-items: center;
+	-webkit-transition: height 0.2s linear, opacity 0.2s linear;
+	-moz-transition: height 0.2s linear, opacity 0.2s linear;
+	-o-transition: height 0.2s linear, opacity 0.2s linear;
+	transition: height 0.2s linear, opacity 0.2s linear;
+}
+.toast .text {
+	font-size: 1rem;
+	text-align: center;
+	line-height: 1.4rem;
+}
+.concealed {
+	display: none !important;
+}
+.input-focused,
+.default-button-style:focus,
+.modded-select-proxy .wrapper:focus,
+.modded-input:focus {
+	outline: 0;
+	border: 0 !important;
+    -moz-box-shadow: 0 0 1px 2px rgb(74, 36, 185);
+    -webkit-box-shadow: 0 0 1px 2px rgb(74, 36, 185);
+    box-shadow: 0 0 1px 2px rgb(74, 36, 185);
+}
