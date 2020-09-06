@@ -36,15 +36,18 @@ module.exports = function(dispatch, getState, options) {
 			'Content-Type': 'application/json',
 		},
 		data: {
-			email: value,
+			campaignUuid: '46aa3270-d2ee-11ea-a9f0-e9a68ccff42a',
+			data: {
+				email: value
+			}
 		},
 		responseType: 'json',
 		url: BASE_URL + '/check-user',
 		method: 'post',
 		timeout: REQUEST_TIMEOUT
 	}).then(response => {
-		//console.log(response);
-		if (response.data.status === 'EXISTS') {
+		console.log(response);
+		if (response.data.data.status === 'EXISTS') {
 			dispatch({
 				type: INPUT_INVALID,
 				payload: {

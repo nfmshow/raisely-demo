@@ -29,21 +29,25 @@ module.exports = function(dispatch, getState, options) {
 			'Content-Type': 'application/json',
 		},
 		data: {
-			firstName: inputs['firstname'].value,
-			lastName: inputs['lastname'].value,
-			email: inputs['email'].value,
-			password: inputs['password'].value
+			campaignUuid: '46aa3270-d2ee-11ea-a9f0-e9a68ccff42a',
+			data: {
+				firstName: inputs['firstname'].value,
+				lastName: inputs['lastname'].value,
+				email: inputs['email'].value,
+				password: inputs['password'].value
+			}
 		},
 		responseType: 'json',
-		url: BASE_URL + '/raisely',
+		url: BASE_URL + '/signup',
 		method: 'post',
 		timeout: REQUEST_TIMEOUT
 	}).then(response => {
 		window.toaster.toast('success', 'Welldone ' +  inputs['firstname'].value + ', you have successfully completed your registration.');
+		history.push('/success');
 	},
 	error => {
 		try {
-			if (error.response.data.status === 'EXISTS') {
+			if (error.response.data.data.status === 'EXISTS') {
 				dispatch({
 					type: MARK_INVALID,
 					payload: {
@@ -51,7 +55,6 @@ module.exports = function(dispatch, getState, options) {
 					}
 				});
 				window.toaster.toast('error', 'One or more inputs have not been properly filled!');
-				history.push('/success');
 				return;
 			}
 			throw '';
