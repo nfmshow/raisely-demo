@@ -15,7 +15,7 @@ class PasswordInput extends React.Component {
 	componentDidMount() {
 		this.root = document.getElementById(this.props.id);
 		window.emitter.on('validate_all', (function(e) {
-			this.handleFocus();
+			this.handleBlur();
 			return;
 		}).bind(this));
 	}
