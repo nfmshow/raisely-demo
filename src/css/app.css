@@ -222,9 +222,7 @@ a {
 .concealed {
 	display: none !important;
 }
-.input-focused,
-.default-button-style:focus,
-.modded-select-proxy .wrapper:focus,
+
 .modded-input:focus {
 	outline: 0;
 	border: 0 !important;

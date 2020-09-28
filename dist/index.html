@@ -65,15 +65,60 @@
 			#basic-spinner .body {
 				margin-top: 0.6rem;
 				display: flex;
-				width: 2.1rem;
-				height: 2.1rem;
-				border: 0.18rem solid rgb(74, 36, 185);
-				border-right: 0.18rem solid transparent;
+				width: 1.85rem;
+				height: 1.85rem;
+				border: 0.185rem solid rgb(74, 36, 185);
+				border-right: 0.185rem solid transparent;
 				border-radius: 50%;
-				-webkit-animation: spin 0.4s linear 0s infinite;
-				-moz-animation: spin 0.4s linear 0s infinite;
-				-o-animation: spin 0.4s linear 0s infinite;
-				animation: spin 0.4s linear 0s infinite;
+				-webkit-animation: spin 0.55s linear 0s infinite;
+				-moz-animation: spin 0.55s linear 0s infinite;
+				-o-animation: spin 0.55s linear 0s infinite;
+				animation: spin 0.55s linear 0s infinite;
+			}
+			
+			@media only screen and (max-width: 600px) {
+				#basic-spinner .body {
+					width: 1.85rem;
+					height: 1.85rem;
+					border: 0.185rem solid rgb(74, 36, 185);
+					border-right: 0.185rem solid transparent;
+				}
+			}
+			
+			@media only screen and (min-width: 600px) {
+				#basic-spinner .body {
+					width: 2.8rem;
+					height: 2.8rem;
+					border: 0.28rem solid rgb(74, 36, 185);
+					border-right: 0.28rem solid transparent;
+				}
+				#basic-spinner .text {
+					font-size: 1.85rem;
+				}
+			}
+			
+			@media only screen and (min-width: 992px) {
+				#basic-spinner .body {
+					width: 3.2rem;
+					height: 3.2rem;
+					border: 0.32rem solid rgb(74, 36, 185);
+					border-right: 0.32rem solid transparent;
+				}
+				#basic-spinner .text {
+					font-size: 2rem;
+				}
+			}
+			
+			@media only screen and (min-width: 1200px) {
+				#basic-spinner .body {
+					width: 3.8rem;
+					height: 3.8rem;
+					border: 0.38rem solid rgb(74, 36, 185);
+					border-right: 0.38rem solid transparent;
+				}
+				#basic-spinner .text {
+					font-size: 2.5rem;
+				}
 			}
 		</style>
 	</head>
@@ -103,6 +148,7 @@
 				document.head.append(script);
 			})();
 		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 		<script>
 			(function() {
 				/* Prevent Scrolling */
@@ -162,61 +208,28 @@
 					enableScroll();
 				});
 				
-				function loadFonts(fonts) {
-					try {
-						for (var i = 0; i < fonts.length; i++) {
-							(function() {
-								var font = new FontFace(fonts[i].name, 'url(' + fonts[i].url + ')');
-								font.load().then((function(loadedFont) {
-									document.fonts.add(loadedFont);
-									if (this.name === 'futura') {
-										document.querySelector('#basic-spinner .text').innerHTML = 'Raisely';
-									}
-								}).bind(fonts[i]));
-							})()
-						}
-					}
-					catch(err) {
-						var style = document.createElement('style');
-						var cssText = '';
-						for (var i = 0; i < fonts.length; i++) {
-							if (/\.ttf$/.test(fonts[i].url)) {
-								fonts[i].format = 'truetype';
-							}
-							else if (/\.otf$/.test(fonts[i].url)) {
-								fonts[i].format = 'opentype';
-							}
-							cssText = cssText + '@font-face {' +
-								'font-family: "' + fonts[i].name + '";' +
-								'src: url("' + fonts[i].url + '") format("' + fonts[i].format + '");' +
-							'}';
-						}
-						style.innerHTML = cssText;
-						document.head.append(style);
-					}
-				}
-				
-				loadFonts([
-					{
-						name: 'futura',
-						url: dynamicURL + '/assets/fonts/futura-medium.otf'
+				WebFont.load({
+					custom: {
+						families: ['futura', 'icomoon'],
+						urls: [dynamicURL + '/css/fonts.css?gzip=false']
 					},
-					{
-						name: 'icomoon',
-						url: dynamicURL + '/assets/fonts/icomoon.ttf'
+					timeout: 15000,
+					events: true,
+					active: function() {
+						document.querySelector('#basic-spinner .text').innerHTML = 'Raisely';
+						setTimeout(function() {
+							var appStyle = document.createElement('link');
+							appStyle.rel = 'stylesheet';
+							appStyle.href = dynamicURL + '/css/main.raisely.css';
+							appStyle.onload = function() {
+								var appScript = document.createElement('script');
+								appScript.src = dynamicURL + '/js/main.raisely.js';
+								document.head.append(appScript);
+							}
+							document.head.append(appStyle);
+						}, 0);
 					}
-				]);
-				
-				var appStyle = document.createElement('link');
-				appStyle.rel = 'stylesheet';
-				appStyle.href = dynamicURL + '/css/main.raisely.css';
-				appStyle.onload = function() {
-					var appScript = document.createElement('script');
-					appScript.src = dynamicURL + '/js/main.raisely.js';
-					document.head.append(appScript);
-				}
-				document.head.append(appStyle);
-				
+				});
 			})();
 		</script>
 	</body>

@@ -1,6 +1,6 @@
 require('preact/debug');
 const React = require('react');
-const { Switch, Route, Router, Redirect } = require('react-router-dom');
+const { Switch, Route, Router, Redirect, useRouteMatch } = require('react-router-dom');
 const history = require('./history');
 const { SignUp, Success } = require('./components');
 const { Provider } = require('react-redux');
@@ -12,12 +12,20 @@ const Routes = function(props) {
 		redirects since the exact prop is not used in the Redirect
 		component
 	*/
+	const prefix = window.location.href.includes('/app/raisely-signup') ? '/app/raisely-signup' : '';
+	
 	return (
 		<Switch>
-			<Route path='/success' render={props => <Success {...props} />} />
-			<Route path='/signup' render={props => <SignUp {...props} />} />
-			<Redirect from='/' to='/signup' />
-			<Route path='/signup' render={props => <SignUp {...props} />} />
+			<Route path={`${prefix}/success`}>
+				<Success />
+			</Route>
+			<Route path={`${prefix}/signup`}>
+				<SignUp />
+			</Route>
+			<Redirect from={`${prefix}/`} to={`${prefix}/signup`} />
+			<Route path={`${prefix}/signup`}>
+				<SignUp />
+			</Route>
 		</Switch>
 	)
 }
